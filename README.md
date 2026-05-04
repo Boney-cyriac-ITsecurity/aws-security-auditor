@@ -21,9 +21,13 @@ python aws_auditor.py
 
 ## Sample output
 === AWS Security Audit ===
+
 [CRITICAL] S3 / my-bucket — Public access not blocked
+
 [HIGH] IAM / john — No MFA registered
+
 [HIGH] EC2 / sg-123 — Port 22 open to internet
+
 Total findings: 3
 
 ## Standards
